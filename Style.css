@@ -1,0 +1,106 @@
+
+/* this is the title */ 
+
+a 
+{
+	text-decoration: none;
+  font-family: "arial";
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: .2rem;
+	color: black;
+
+}
+
+body {
+	background-color: white;
+	font-family: "arial";
+	font-size: 12px;
+	letter-spacing: .2rem;
+	color: black;
+	text-align: center;
+	align-content: center;
+	background-repeat: no-repeat;
+}
+
+
+/* this one edits the style of all buttons -- be aware */ 
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin: 6px 6px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+
+/* copy and paste this whole block to add a project button - */
+
+/* 
+PROJECT NUMBER: 1 
+PROJECT NAME: "desk" 
+*/
+.button1 {
+	position: static;
+  background-color: white;
+  color: black; 
+  border: 1px dashed; 
+}
+
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+
+div.photo {
+	position: fixed;
+	bottom: 0;
+	right: 0;	
+}
+
+
+.img {
+	max-width:120%;
+	height:auto;
+	display: table;
+	margin: 0 auto;
+}
+
+
+
+p{
+	font-family: arial;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 49%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  align-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+  
+
+	
+title:hover {
+	font-weight: bold;
+	text-decoration: underline;
+
+
+	
